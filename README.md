@@ -1,13 +1,11 @@
 ## Hello Everyone, This is my Data Structures and Algorithms Practice Repository. 
 ## Author: Om Gupta
 
-## 🔗 Connect With Me
-
+#### 🔗 Connect With Me
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omgupta7309/)
 - [![GitHub](https://img.shields.io/badge/GitHub-Profile-white?logo=github)](https://github.com/omg-CPP)
 - [![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?logo=leetcode&logoColor=black)](https://leetcode.com/u/omgupta_7309/)
 - [![Gmail](https://img.shields.io/badge/Gmail-Contact-D14836?logo=gmail&logoColor=white)](mailto:omgbmw100@gmail.com)
-
 
 ~ In this repository, I push my Data Structures and Algorithms files on a daily basis, whatever I practice I push them here on GitHub.
 
@@ -52,6 +50,8 @@ OM-GUPTA-Data-Structures-and-Algorithms-Repository/
 ├── 
 <br>
 └── 
+
+
 
 
 
