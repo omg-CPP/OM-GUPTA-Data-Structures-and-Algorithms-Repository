@@ -3,14 +3,29 @@
 
 ## 🔗 Connect With Me
 
-<a href="https://www.linkedin.com/in/omgupta7309/">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="25"/> LinkedIn
+<!-- LinkedIn -->
+- <a href="https://www.linkedin.com/in/omgupta7309/">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="25"/> LinkedIn
+</a>
+<br>
+
+<!-- GitHub -->
+- <a href="https://github.com/omg-CPP">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="25"/> GitHub
+</a>
+<br>
+
+<!-- LeetCode -->
+- <a href="https://leetcode.com/u/omgupta_7309/">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" width="25"/> LeetCode
+</a>
+<br>
+
+<!-- Gmail -->
+- <a href="mailto:omgbmw100@gmail.com">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="25"/> Gmail
 </a>
 
-- <i class="fa-brands fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/omgupta7309/)  
-- 💻 [GitHub](https://github.com/omg-CPP)  
-- 🧠 [LeetCode](https://leetcode.com/u/omgupta_7309/)  
-- 📧 [Email](mailto:omgbmw100@gmail.com)  
 
 ~ In this repository, I push my Data Structures and Algorithms files on a daily basis, whatever I practice I push them here on GitHub.
 
