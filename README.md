@@ -1,7 +1,7 @@
 ## Hello Everyone, This is my Data Structures and Algorithms Practice Repository. 
 ## Author: Om Gupta
 
-In this repository, I push my Data Structures and Algorithms files on a daily basis, whatever I practice I push them here on GitHub.
+~ In this repository, I push my Data Structures and Algorithms files on a daily basis, whatever I practice I push them here on GitHub.
 
 🚀 Data Structures & Algorithms Practice
 <br>
@@ -9,19 +9,23 @@ In this repository, I push my Data Structures and Algorithms files on a daily ba
 
 📌 About This Repository
 <br>
--> 🧠 Solving problems daily to improve logic & efficiency
+~ 🧠 Solving problems daily to improve logic & efficiency
 <br>
--> 💻 Language Used: C++
+~ 💻 Language Used: C++ (GCC Compiler)
 <br>
--> 📚 Platforms: LeetCode, GFG, etc.
+~ ⚙️ IDE: VS Code
 <br>
--> 🔁 Focus: Consistency + Pattern Recognition + Optimization
+~ 🐙 Version Control: Git & GitHub
 <br>
--> 🎯 Goal: Crack top tech interviews & Improve time & space complexity analysis
+~ 📚 Platforms: LeetCode, GFG, etc.
+<br>
+~ 🔁 Focus: Consistency + Pattern Recognition + Optimization
+<br>
+~ 🎯 Goal: Crack top tech interviews & Improve time & space complexity analysis
 <br>
 
 
-📂 Folder Structure
+📂 Folder Structure:
 <br>
 OM-GUPTA-Data-Structures-and-Algorithms-Repository/
 <br>
