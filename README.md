@@ -7,20 +7,14 @@
 - <a href="https://www.linkedin.com/in/omgupta7309/">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="25"/> LinkedIn
 </a>
-<br>
-
 <!-- GitHub -->
 - <a href="https://github.com/omg-CPP">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="25"/> GitHub
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" width="25"/> GitHub
 </a>
-<br>
-
 <!-- LeetCode -->
 - <a href="https://leetcode.com/u/omgupta_7309/">
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" width="25"/> LeetCode
 </a>
-<br>
-
 <!-- Gmail -->
 - <a href="mailto:omgbmw100@gmail.com">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="25"/> Gmail
