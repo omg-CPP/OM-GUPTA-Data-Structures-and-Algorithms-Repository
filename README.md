@@ -20,6 +20,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="25"/> Gmail
 </a>
 
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-white?logo=github)](https://github.com/omg-CPP)
 
 ~ In this repository, I push my Data Structures and Algorithms files on a daily basis, whatever I practice I push them here on GitHub.
 
