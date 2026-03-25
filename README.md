@@ -27,6 +27,8 @@ OM-GUPTA-Data-Structures-and-Algorithms-Repository/
 <br>
 │
 <br>
+├── C++STL
+<br>
 ├── R01_BASICS/
 <br>
 ├── R02_CONDITIONALS/
@@ -36,22 +38,7 @@ OM-GUPTA-Data-Structures-and-Algorithms-Repository/
 ├── R04_PATTERN-PRINTING/
 <br>
 ├── 
-├── 
-├── 
-├── 
-├── 
-├── 
-├── 
-├── 
-├── 
-├── 
-├── 
-├── 
-├── 
-├── 
-├── 
-├── 
-├── 
+<br>
 └── 
 
 
