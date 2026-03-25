@@ -3,6 +3,10 @@
 
 ## 🔗 Connect With Me
 
+<a href="https://www.linkedin.com/in/omgupta7309/">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="25"/> LinkedIn
+</a>
+
 - <i class="fa-brands fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/omgupta7309/)  
 - 💻 [GitHub](https://github.com/omg-CPP)  
 - 🧠 [LeetCode](https://leetcode.com/u/omgupta_7309/)  
