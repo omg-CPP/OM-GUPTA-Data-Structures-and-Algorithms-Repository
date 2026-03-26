@@ -17,4 +17,18 @@ int main() {
 // -> .\TerminalCommandOutputFile.exe
 
 //    Enter a integer number: 41
-//    The number you entered is: 41
+//    The number you entered is: 
+
+
+
+// 🔍 What Each Means
+
+// 🔹 ./C++STL/TerminalCommand.cpp
+// ./ → current directory (Unix/Linux style)
+// / → forward slash path separator
+// Used in Git Bash, Linux, macOS
+
+// 🔹 .\C++STL\TerminalCommand.cpp
+// .\ → current directory (Windows style)
+// \ → backslash path separator
+// Used in PowerShell / CMD
