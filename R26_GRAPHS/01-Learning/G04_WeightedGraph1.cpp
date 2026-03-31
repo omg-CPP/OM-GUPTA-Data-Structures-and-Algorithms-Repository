@@ -1,0 +1,59 @@
+// Using Adjacency Matrix
+#include <iostream>
+#include <vector>
+using namespace std;
+
+
+void printAdjancencyMatrix(vector<vector<int>>& adj) {
+    for(int i = 0 ; i < adj.size() ; i++) {
+        for(int j = 0 ; j < adj[i].size() ; j++) {
+            cout<<adj[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+}
+
+// T.C. = O(N)
+// S.C. = O(N^2)
+
+int main()
+{
+    // n = no of nodes or vertex
+    // m = no of edges
+    int n,m;
+    cout<<"Enter nodes and edges : ";
+    cin>>n>>m;
+
+    // graph here
+
+    // Create a 2D vector with dimensions (n+1) x (n+1)
+    vector<vector<int>> adj(n+1, vector<int>(n+1,0));
+
+    // Now you can use adj like a 2D array
+    for(int i = 0 ; i < m ; i++) {
+        int u,v,wt;
+        cin>>u>>v>>wt;
+        adj[u][v] = wt;
+        adj[v][u] = wt; // for undirected graph
+    }
+
+    printAdjancencyMatrix(adj);
+    
+    return 0;
+}
+
+// Enter nodes and edges : 5 6
+
+// 2 1 3
+// 1 3 4
+// 2 4 5
+// 3 4 2
+// 2 5 1
+// 4 5 7
+
+// 0 0 0 0 0 0 
+// 0 0 3 4 0 0
+// 0 3 0 0 5 1
+// 0 4 0 0 2 0
+// 0 0 5 2 0 7
+// 0 0 1 0 7 0
