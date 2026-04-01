@@ -47,7 +47,15 @@ OM-GUPTA-Data-Structures-and-Algorithms-Repository/
 <br>
 ├── R04_PATTERN-PRINTING/
 <br>
-├── 
+├── R05_FUNCTIONS/
+<br>
+├── R06_POINTERS/
+<br>
+├── R07_ARRAYS-I/
+<br>
+├── R07_ARRAYS-II/
+<br>
+├── R08_2D-ARRAYS/
 <br>
 └── 
 
