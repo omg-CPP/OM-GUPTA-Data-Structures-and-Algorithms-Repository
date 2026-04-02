@@ -39,7 +39,7 @@ OM-GUPTA-Data-Structures-and-Algorithms-Repository/
 <br>
 ├── C++STL
 <br>
-├── Git & GitHub
+├── Git & GitHub/
 <br>
 ├── R01_BASICS/
 <br>
