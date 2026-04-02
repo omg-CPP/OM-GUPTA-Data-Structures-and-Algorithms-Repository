@@ -1,0 +1,240 @@
+
+Git and GitHub
+
+Git -> Version Control System that helps to track changes in our code file.
+-> popular, free, open-source, fast and scalable
+
+-> to track the history
+-> to collaborate
+
+GitHub -> Website that allows developers to store and manage their code using git.
+-> https://github.com
+-> folders -> repository or repo
+
+README.md -> information about the project 
+-> md : mark down 
+-> cd : change directory
+-> cd .. : to come out of that directory
+
+list of git commands to run on git bash
+
+-> ~ root (main) directory
+
+-> git --version : to check git version
+-> ls : list files :: to view all files
+-> ls -Hidden : to view hidden files like .git
+-> clear : to clear the screen
+-> pwd : working directory
+
+
+configuring git
+git config --global user.name "My Name"
+git config --global user.email "your email-address"
+git config --list
+
+
+*******************
+
+clone and status
+
+clone -> cloning a repo on our local machine from GitHub
+remote -> files on GitHub 
+local -> on our laptop / PC
+git clone https://github.com/omg-CPP/Learning-Git-GitHub.git
+
+status -> displays the state of your code.
+-> git status
+-> On branch main
+Your branch is up to date with 'origin/main'.
+
+-> if we change something on vs code which is not commited on github so we can see these : 
+->  modified:   README.md
+-> Untracked files: index.html
+-> staged: file is ready to be commited
+:: we need to add the changes whether it is change (modified) or new file (untracked), then it becomes staged status. :: status from red to green 
+-> unmodified: unchanged
+:: after add (staged) -> commit (unchanged)
+
+
+*****************************
+
+add and commit
+
+: add - adds new or changed files in your working directory to the Git staging area.
+-> git add file-name
+-> eg. git add README.md  
+-> git add . (to add, stage all files)
+
+: commit - it is the record of change
+-> git commit -m "some-message"
+-> eg. git commit -m "add a new paragraph true"
+
+
+push command
+
+: push - upload local repo content to remote repo
+-> git push origin main
+
+*****************************
+
+: what i did i clone my repo and then made changes in my remote github repo, and then made changes in local repo, so mistake i did, was i didn't push the changes, and tried to commit changes of my local repo to remote repo, that is why i got merge conflict error.
+
+solution : 
+
+Step 1: Pull latest changes
+-> git pull origin main
+👉 This will:
+Fetch remote changes
+Merge them into your local branch
+
+Step 2: Handle merge conflicts (if any)
+-> git add .
+-> git commit -m "Resolved merge conflicts"
+
+Step 3: Push Again
+-> git push origin main
+
+
+***************************
+
+-> git push origin main : directly push to remote repo
+: remote repo - origin
+: branch - main
+
+***************************
+
+-> cd ..
+-> mkdir localRepo
+-> ls
+-> cd localRepo
+-> ls -Hidden
+-> git init
+-> ls -Hidden ::: .git -> git repo ban gayi hai
+-> git status :: untracked files (2) created
+-> git add .
+-> git commit -m "new-files-added"
+-> git status
+: create a repo on github 
+-> git remote add origin https://github.com/omg-CPP/localrepo.git
+-> git remote -v :: to check origin (remote)
+-> git branch :: to check branch 
+-> git branch -M main :: to rename branch (master -> main)
+-> git push -u origin main :: -u to set upstream
+-> git status
+-> git add .
+-> git commit -m "add README.md file"
+-> git push
+
+// **************************************
+
+Command	                Behavior
+
+git add R01_Arrays/	    Adds everything in that folder
+git add .	            Adds everything in entire repo ❌
+git add file1 file2	    Adds only selected files ✔
+
+
+
+**************************
+
+
+Git Branches
+
+-> git branch :: (to check)
+-> git branch -M main :: (to-rename)
+-> git checkout branch-name :: (to-navigate)
+-> git checkout -b new-branch-name :: (to create new branch) 
+-> git branch -d branch-name :: (to delete branch)
+: first shift then delete 
+
+: Merging code
+- to compare commits, branches, files and more
+-> git diff branch-name 
+
+
+- to merge 2 branches
+-> git merge branch-name
+
+or create a PR
+
+-> pull request : It lets uou to tell others about changes you have pushed to a branch in a repository on GitHub.
+
+-> pull command : used to fetch and download from a remote repo and immediately update the local repo to match that content.
+
+
+
+
+****************************
+
+-> git checkout -b feature1
+-> git checkout main
+-> git checkout feature1  
+-> git branch
+-> git status :: (modified index.html)
+-> git add .
+-> git commit -m "new para with feature1"
+-> git push origin feature1
+:: now use pull request to merge feature1 with main on GitHub
+-> git branch :: (feature1)
+-> git checkout main
+:: to bring changes on our local repo 
+-> git pull origin main
+
+
+*********************************
+
+Resolving merge conflicts
+-> An event that takes place when git is unable to automatically resolve differences in code between two commits.
+-> using git merge file-name
+: file-name is the other file, not checkout file
+
+**********************************
+
+
+Undoing Changes :: (Doubt)
+
+case 1 : staged changes
+-> git reset file-name
+-> git reset
+
+case 2 : commited changes (for one commit)
+-> git reset HEAD~1
+
+case 3 : commited changes (for many commits)
+-> git reset commit-hash
+-> git reset --hard commit-hash (for VS code)
+-> git log :: to see commits history
+
+
+
+**********************************
+
+
+-> fork : A fork is a new repository that shares code and visibility settings eith the original "upstream" repository.
+: Fork is a rough copy.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
