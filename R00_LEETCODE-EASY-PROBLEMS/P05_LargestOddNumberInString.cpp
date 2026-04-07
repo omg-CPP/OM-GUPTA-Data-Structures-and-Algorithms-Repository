@@ -24,10 +24,7 @@
 #include <numeric>
 #include <algorithm>
 using namespace std;
-int main()
-{
-    return 0;
-}
+
 
 class Solution {
 public:
@@ -42,3 +39,8 @@ public:
         return "";
     }
 };
+
+int main()
+{
+    return 0;
+}
