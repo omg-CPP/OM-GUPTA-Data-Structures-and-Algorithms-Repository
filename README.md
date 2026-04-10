@@ -43,6 +43,8 @@ OM-GUPTA-Data-Structures-and-Algorithms-Repository/
 <br>
 ├── R00_LEETCODE-EASY-PROBLEMS/
 <br>
+├── R00_LEETCODE-MEDIUM-PROBLEMS/
+<br>
 ├── R01_BASICS/
 <br>
 ├── R02_CONDITIONALS/
